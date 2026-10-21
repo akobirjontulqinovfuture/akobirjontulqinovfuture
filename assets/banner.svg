@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b0b10"/><stop offset="1" stop-color="#14070a"/></linearGradient>
+<radialGradient id="g1" cx="0.85" cy="0.2" r="0.6"><stop offset="0" stop-color="#ff3b3b" stop-opacity=".45"/><stop offset="1" stop-color="#ff3b3b" stop-opacity="0"/></radialGradient>
+<radialGradient id="g2" cx="0.1" cy="1" r="0.6"><stop offset="0" stop-color="#2ee6a6" stop-opacity=".25"/><stop offset="1" stop-color="#2ee6a6" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".05"/></pattern>
+</defs>
+<rect width="1200" height="300" rx="18" fill="url(#bg)"/><rect width="1200" height="300" rx="18" fill="url(#grid)"/>
+<rect width="1200" height="300" rx="18" fill="url(#g1)"/><rect width="1200" height="300" rx="18" fill="url(#g2)"/>
+<g font-family="Segoe UI,Helvetica,Arial,sans-serif">
+<text x="60" y="78" fill="#8a8f98" font-size="16" font-family="ui-monospace,Menlo,Consolas,monospace">// akobir.os · Qarshi, Uzbekistan</text>
+<text x="60" y="160" fill="#ffffff" font-size="68" font-weight="800">Akobir <tspan fill="#ff4d4d">Tulkinov</tspan></text>
+<text x="60" y="210" fill="#c9ccd2" font-size="24">Telegram bots · Mini Apps · motion websites · AI tooling</text>
+<text x="60" y="255" fill="#2ee6a6" font-size="17" font-family="ui-monospace,Menlo,Consolas,monospace">creator of keelyard — ~80% fewer tokens for AI coding agents<tspan fill="#2ee6a6"><animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/> ▍</tspan></text>
+</g>
+<circle cx="1050" cy="150" r="70" fill="none" stroke="#ff4d4d" stroke-opacity=".5" stroke-width="2" stroke-dasharray="6 10"><animateTransform attributeName="transform" type="rotate" from="0 1050 150" to="360 1050 150" dur="24s" repeatCount="indefinite"/></circle>
+<circle cx="1050" cy="150" r="40" fill="none" stroke="#2ee6a6" stroke-opacity=".5" stroke-width="2"/>
+<circle cx="1050" cy="150" r="6" fill="#ff4d4d"/>
+</svg>
