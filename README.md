@@ -1,27 +1,31 @@
-<p align="center"><img src="assets/banner.svg" alt="Akobir Tulkinov — Telegram bots, Mini Apps, motion websites, AI tooling" width="100%"></p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img src="assets/banner-light.svg" alt="Akobir Tulkinov: Telegram bots, Mini Apps, websites and open-source dev tools. Qarshi, Uzbekistan" width="100%">
+</picture>
 
 <p align="center"><b>Salom 👋 · Привет 👋 · Hi 👋</b></p>
 
-I'm **Akobir**, a 13-year-old developer from Qarshi, Uzbekistan, and a student at IT Park. I build websites, Telegram bots and Mini Apps. I also edit videos with AI tools.
+I'm **Akobir Tulkinov**, a developer from Qarshi, Uzbekistan, and a student at IT Park. I build Telegram bots,
+Mini Apps and websites, and I maintain open-source tools for developers who work with AI coding agents.
 
 <p align="center">
-  <a href="https://akobirjontulqinovfuture.github.io/"><img src="https://img.shields.io/badge/Portfolio-visit-ff4d4d?style=for-the-badge" alt="Portfolio"></a>
-  <a href="https://akobirjontulqinovfuture.github.io/akobir-os/"><img src="https://img.shields.io/badge/AKOBIR.OS-new-2ee6a6?style=for-the-badge" alt="AKOBIR.OS"></a>
-  <a href="mailto:akobirtulqinov2@gmail.com"><img src="https://img.shields.io/badge/Email-contact-0b0b10?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://akobirjontulqinovfuture.github.io/"><img src="https://img.shields.io/badge/Portfolio-visit-111111?style=for-the-badge" alt="Portfolio"></a>
+  <a href="https://akobirjontulqinovfuture.github.io/akobir-os/"><img src="https://img.shields.io/badge/AKOBIR.OS-open-178A52?style=for-the-badge" alt="AKOBIR.OS"></a>
+  <a href="https://pypi.org/project/keelyard/"><img src="https://img.shields.io/pypi/v/keelyard?style=for-the-badge&label=keelyard&color=111111" alt="keelyard on PyPI"></a>
+  <a href="mailto:akobirtulqinov2@gmail.com"><img src="https://img.shields.io/badge/Email-contact-111111?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
-## ⚓ Featured: [keelyard](https://github.com/akobirjontulqinovfuture/keelyard)
+## Featured project
 
-keelyard is an open-source tool that makes AI coding agents (Claude Code, Codex, OpenCode) **prove their work, undo any step, and use fewer tokens**.
+<table><tr>
+<td width="120" align="center"><a href="https://github.com/akobirjontulqinovfuture/keelyard"><img src="https://raw.githubusercontent.com/akobirjontulqinovfuture/keelyard/main/assets/brand/mark.png" width="96" alt="keelyard logo"></a></td>
+<td><b><a href="https://github.com/akobirjontulqinovfuture/keelyard">keelyard</a></b> · <a href="https://pypi.org/project/keelyard/"><code>pip install keelyard</code></a><br>
+An open-source tool that makes AI coding agents (Claude Code, Codex, OpenCode) <b>prove their work, undo any step, and use fewer tokens</b>.
+The agent can't say "done" until the tests pass on the current files, every edit is snapshotted for one-command rewind,
+and noisy output is trimmed. Local only, no telemetry, Apache-2.0.</td>
+</tr></table>
 
-| | |
-|---|---|
-| **~80% fewer tokens** | Measured across a 6-task session benchmark. Per-task savings were 77–85%. |
-| **Same quality** | With keelyard, 100% of benchmark tasks were completed correctly. |
-| **Proof before "done"** | Each claim is checked against tests and file hashes. |
-| **Rewind** | Restores files to any earlier step with one command. |
-
-The benchmark is in the repo ([`bench/session`](https://github.com/akobirjontulqinovfuture/keelyard/tree/main/bench/session)), so you can rerun it yourself.
+Measured numbers and how to rerun them are in [BENCHMARKS.md](https://github.com/akobirjontulqinovfuture/keelyard/blob/main/BENCHMARKS.md).
 
 ## 🖥 Selected work
 
@@ -38,14 +42,10 @@ These are live demos. The public repos contain production builds only, and the s
 
 ## 🧰 Stack
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?logo=threedotjs&logoColor=white)
+[![Stack](https://skillicons.dev/icons?i=html,css,js,python,threejs,git,github,linux&theme=dark)](https://skillicons.dev)
+
 ![GSAP](https://img.shields.io/badge/GSAP-88CE02?logo=greensock&logoColor=black)
 ![Telegram](https://img.shields.io/badge/Telegram%20Bots%20%26%20Mini%20Apps-26A5E4?logo=telegram&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
 
 ## 📫 Contact
 
